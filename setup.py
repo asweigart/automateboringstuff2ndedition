@@ -2,7 +2,7 @@ import re, io
 from setuptools import setup, find_packages
 
 # Load version from module (without loading the whole module)
-with open('src/automateboringstuff/__init__.py', 'r') as fo:
+with open('src/automateboringstuff2ndedition/__init__.py', 'r') as fo:
     version = re.search(r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]',
                         fo.read(), re.MULTILINE).group(1)
 
