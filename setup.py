@@ -11,7 +11,7 @@ with io.open('README.md', encoding='utf-8') as fo:
     long_description = fo.read()
 
 setup(
-    name='automateboringstuff',
+    name='automateboringstuff2ndedition',
     version=version,
     url='https://github.com/asweigart/automateboringstuff',
     author='Al Sweigart',
@@ -53,6 +53,7 @@ setup(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
     ],
 )
-
