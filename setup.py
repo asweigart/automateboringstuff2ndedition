@@ -30,7 +30,7 @@ setup(
         'PyPDF2==1.26.0',
         'python-docx==0.8.10',
         'imapclient==2.1.0',
-        'pyzmail36==1.0.4',
+        #'pyzmail36==1.0.4', # Removed because this can't be installed by setuptools versions after 58.0.0
         'twilio',
         'ezgmail',
         'ezsheets',
