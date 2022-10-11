@@ -18,6 +18,7 @@ setup(
     author_email='al@inventwithpython.com',
     description=('This package installs the modules used in "Automate the Boring Stuff with Python", 2nd Edition.'),
     long_description=long_description,
+    long_description_content_type='text/markdown',
     packages=find_packages(where='src'),
     package_dir={'': 'src'},
     license='BSD',
